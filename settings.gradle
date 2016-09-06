@@ -1,0 +1,2 @@
+include ':app',':plugin_test'
+project(':plugin_test').projectDir = new File('../plugin_test')
